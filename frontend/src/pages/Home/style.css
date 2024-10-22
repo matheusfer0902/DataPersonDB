@@ -1,0 +1,75 @@
+.main-container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff; /* cor de fundo do contêiner */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* leve sombra para destacar o conteúdo */
+  border-radius: 8px; /* bordas arredondadas */
+}
+
+/* Estilização da navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 10px;
+}
+
+.sign-in-btn {
+  background-color: white;
+  color: black;
+  border: 1px solid lightgray;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-btn {
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilização da seção de informações do usuário */
+.user-info {
+  margin: 40px 0;
+  font-family: Arial, sans-serif;
+}
+
+.user-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.user-details {
+  font-size: 16px;
+  color: gray;
+}
+
+.divider {
+  margin-top: 40px;
+  border: none;
+  border-top: 1px solid black;
+}
